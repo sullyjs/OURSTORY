@@ -12,10 +12,11 @@
       for(let x = 0; x < positions.length; x++){
         if(pos > positions[x] - 3 && pos < positions[x] + 3){
           return false;
-        }
+          }
       }
-      positions.push(pos);
-    }
+  positions.push(pos);
+  return pos;
+}
 
     while(positions.length < numOfFlowers){
       getNum();
