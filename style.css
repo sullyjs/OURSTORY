@@ -127,11 +127,7 @@ h1 {
 
 /* Positioning petals */
 .sunflwr__pedal--1 { animation: grow-pedal-back 1s 1.5s forwards; }
-.sunflwr__pedal--2 { transform: translate(-50%, -50%) rotate(30deg); }
-.sunflwr__pedal--3 { transform: translate(-50%, -50%) rotate(60deg); }
-.sunflwr__pedal--4 { transform: translate(-50%, -50%) rotate(90deg); }
-.sunflwr__pedal--5 { transform: translate(-50%, -50%) rotate(120deg); }
-.sunflwr__pedal--6 { transform: translate(-50%, -50%) rotate(150deg); }
+
 
 .sunflwr__pedal--7, .sunflwr__pedal--8, .sunflwr__pedal--9, .sunflwr__pedal--10, .sunflwr__pedal--11, .sunflwr__pedal--12 {
   width: 10%;
@@ -144,6 +140,24 @@ h1 {
   animation: grow-pedal-front 1s 2s forwards;
 }
 
+.sunflwr__pedal {
+  width: 15%;
+  height: 45%;
+  border-radius: 50%;
+  background: #F2FE00;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+}
+
+.sunflwr__pedal--1 { transform: translate(-50%, -50%) rotate(0deg); }
+.sunflwr__pedal--2 { transform: translate(-50%, -50%) rotate(30deg); }
+.sunflwr__pedal--3 { transform: translate(-50%, -50%) rotate(60deg); }
+.sunflwr__pedal--4 { transform: translate(-50%, -50%) rotate(90deg); }
+.sunflwr__pedal--5 { transform: translate(-50%, -50%) rotate(120deg); }
+.sunflwr__pedal--6 { transform: translate(-50%, -50%) rotate(150deg); }
 .sunflwr__pedal--7 { transform: translate(-50%, -50%) rotate(15deg); }
 .sunflwr__pedal--8 { transform: translate(-50%, -50%) rotate(45deg); }
 .sunflwr__pedal--9 { transform: translate(-50%, -50%) rotate(75deg); }
